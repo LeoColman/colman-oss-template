@@ -50,6 +50,10 @@ tasks.withType<Test> {
     useJUnitPlatform()
 }
 
+kotlin {
+    explicitApi()
+}
+
 val sourcesJar by tasks.registering(Jar::class) {
     archiveClassifier.set("sources")
     from(sourceSets.getByName("main").allSource)
