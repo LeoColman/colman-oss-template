@@ -36,7 +36,7 @@ repositories {
 
 dependencies {
     // Kotest
-    testImplementation("io.kotest:kotest-runner-junit5:4.4.1")
+    testImplementation("io.kotest:kotest-runner-junit5:4.4.3")
     
     // Mockk
     testImplementation("io.mockk:mockk:1.10.5")
