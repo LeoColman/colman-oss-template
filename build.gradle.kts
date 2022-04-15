@@ -21,7 +21,7 @@ plugins {
     kotlin("jvm") version "1.6.20"
     `maven-publish`
     signing
-    id("org.jetbrains.dokka") version "1.6.10"
+    id("org.jetbrains.dokka") version "1.6.20"
     id("io.gitlab.arturbosch.detekt").version("1.15.0-RC1")
 }
 
